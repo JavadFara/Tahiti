@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Lalezar', cursive;
+}
+h1 {
+    margin-top: 20%;
+    font-size: 200%;
+}
+h2 {
+    margin: 10%;
+    font-weight: 900;
+}
+.img1 {
+    margin-top: 10%;
+    width: 50%;
+    border-radius: 100rem;
+}
+
+hr {
+    background-color: white;
+    width: 25%;
+    margin: 10% auto;
+    border: 5%;
+    border-style: dotted;
+    border-bottom: 0;
+}
+button {
+    margin: 5% 1%;
+    background-color: rgb(0, 143, 95);
+    color: rgb(255, 255, 255);
+}
+.emt {
+    margin: 3%;
+}
+.message1, .message2, .message3 {
+    visibility: hidden;
+    display: none;
+}
+.show {
+    visibility: visible;
+    display: block;
+}
