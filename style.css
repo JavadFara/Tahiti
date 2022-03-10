@@ -34,11 +34,3 @@ button {
 .emt {
     margin: 3%;
 }
-.message1, .message2, .message3 {
-    visibility: hidden;
-    display: none;
-}
-.show {
-    visibility: visible;
-    display: block;
-}

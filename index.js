@@ -6,6 +6,7 @@ var d=0;
 var e=0;
 var f=0;
 var g=0;
+var resp = 0
 
 $(".right1").click (function() {
     if (a<1) {
@@ -54,13 +55,18 @@ $(".right7").click (function() {
 score++;
 $(".emt").text(score)
  g= 1;
- if (score===7) {
-     alert ("حرفه‌ای تک‌تاز لقب شایسته شماست")
- } else if (score>4) {
-   $(".message1").addClass("show")
-} else if (score>2) {
-    $(".message2").addClass("show")
-} else {
-    $(".message3").addClass("show")
-}
 }})
+
+
+$("#fini").click(function(){
+    if (score===7) {
+        alert ("حرفه‌ای تک‌تاز لقب شایسته شماست")
+    } else if (score>4) {
+      alert ("حضور فعال در تهیتی، موجب رشدتان شده است")
+   } else if (score>2) {
+       alert ("با فضای تهیتی تا حدودی آشنا هستید")
+   } else {
+alert ("شما اهل تهیتی نیستید ، سیک خود را بزنید")
+   }
+ 
+})
