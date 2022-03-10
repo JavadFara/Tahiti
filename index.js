@@ -57,6 +57,13 @@ $(".emt").text(score)
  g= 1;
 }})
 
+$(".bot").click (function(){
+    var ttt = this
+    $(ttt).addClass("flash");
+    setTimeout (function(){
+        $(ttt).removeClass("flash");
+    },100);
+})
 
 $("#fini").click(function(){
     if (score===7) {

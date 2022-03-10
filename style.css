@@ -43,7 +43,9 @@ button {
 .bot {
     font-size: 130%;
 }
-
+.flash {
+    background-color: white;
+}
 
 @media only screen and (min-width: 900px) {
    
