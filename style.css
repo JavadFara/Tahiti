@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: black;
+    background-color: rgb(44, 44, 44);
     color: white;
     font-family: 'Lalezar', cursive;
 }
@@ -34,3 +34,53 @@ button {
 .emt {
     margin: 3%;
 }
+
+#fini {
+    background-color: rgb(255, 166, 0);
+    font-size: 200%;
+}
+
+.bot {
+    font-size: 130%;
+}
+
+
+@media only screen and (min-width: 900px) {
+   
+    .img1 {
+        margin-top: 5%;
+        width: 30%;
+        border-radius: 100rem; 
+    }
+    
+    hr {
+        background-color: white;
+        width: 50%;
+        margin: 5% auto;
+        border: 5%;
+        border-style: dotted;
+        border-bottom: 0;
+    }
+   
+    h1 {
+      font-size: 500%; 
+      margin-top: 5%;
+   }
+
+   h2 {
+    margin: 5%;
+    font-weight: 900;
+    font-size: 500%;
+}
+
+h3 {
+    font-size: 500%;
+}
+.bot {
+
+    font-size: 250%;
+}
+#fini {
+    font-size: 400%;
+}
+  }
